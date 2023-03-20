@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Are+You+Serious&family=McLaren&family=Montserrat:wght@500&display=swap");
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  font-family: "Montserrat", sans-serif !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.navbar {
+  background-color: #1c2331; /* Darker shade of gray */
+  padding: 15px; /* Add some padding for better visibility */
+  box-shadow: 0px 1px 10px rgba(121, 9, 68, 0.1); /* Add a subtle box-shadow */
+}
+
+.navbar-brand {
+  color: #f9c835; /* Golden yellow color */
+  font-weight: bold;
+  font-size: 28px; /* Increase font-size for better visibility */
+}
+
+.nav-link {
+  color: #ffffff; /* White color */
+  font-size: 18px; /* Increase font-size for better visibility */
+  text-transform: uppercase; /* Uppercase all the links */
+  transition: all 0.3s ease; /* Add a smooth transition effect */
+}
+
+.nav-link:hover {
+  color: #f9c835; /* Change color to golden yellow on hover */
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.smalling {
+  height: 200px;
+  width: 100%;
+  border-radius: 5px;
+  object-fit: cover; /* added to prevent image distortion */
+}
+
+.biging {
+  height: 400px;
+  width: 100%;
+  border-radius: 5px !important;
+  object-fit: cover; /* added to prevent image distortion */
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 700; /* added for emphasis */
+  margin-bottom: 10px; /* added for spacing */
+}
+
+.btn {
+  background-color: #333;
+  color: white;
+  box-shadow: none;
+  border: none; /* added to remove default border */
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition: background-color 0.2s ease-in-out; /* added for hover effect */
+}
+
+.btn:hover {
+  background-color: #555; /* added for hover effect */
+}
+
+.bs {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 20px;
+  transition: box-shadow 0.2s ease-in-out; /* added for hover effect */
+}
+
+.bs:hover {
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 8px 20px; /* added for hover effect */
+}
+
+.modal-paragraph {
+  color: #4d4d4d;
+  font-size: 18px;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
+.modal-close-button {
+  background-color: #f0f0f0;
+  color: #333333;
+  border-color: #d9d9d9;
+}
+
+.register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.btn-new {
+  height: 50px;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 0;
+  margin-top: 20px;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+input,
+select {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 8px;
+  border: 2px solid black !important;
+  box-shadow: none !important;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+  width: 100% !important;
+}
+
+input:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+  border-color: #0088cc;
+  background-color: #f0f0f0; /* change to whatever color you'd like */
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 0 0 10px rgba(0, 136, 204, 0.5);
+  margin-top: 10px;
+  border-color: #0088cc;
+}
+
+h2 {
+  font-size: 30px;
+  padding: 10;
+  font-weight: bold;
+  text-align: center;
+}
+
+.dropdown-toggle {
+  border: 0px solid black !important;
+}
+
+.landing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.image-container {
+  position: relative;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+}
+
+.text-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+h3 {
+  font-size: 6rem;
+  margin-bottom: 1rem;
+  text-align: left !important;
+}
+
+h4 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  text-align: left !important;
+}
+
+.new {
+  font-family: "Are You Serious", cursive;
+  font-family: "McLaren", cursive;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
